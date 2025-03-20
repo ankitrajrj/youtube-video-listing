@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search videos...">
+            <div class="search-icon">🔍</div>
+        </div>
+    </header>
+
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <p>Loading Videos...</p>
+    </div>
+
+    <div class="video-grid" id="video-container" style="display: none"></div>
+    <p id="no-video-message" class="no-videos" style="display: none">No videos found</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
