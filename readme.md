@@ -22,8 +22,13 @@ This project is built using three main technologies:
    Clicking on a video opens it on YouTube in a new tab.
 
 3. Features of this project
+   <br/>
    ✅ Fetch YouTube videos from an API.
+      <br/>
    ✅ Show a loader while fetching videos.
+      <br/>
    ✅ Display videos with thumbnails, titles, and stats (views, likes, etc.).
+      <br/>
    ✅ Search for videos based on the title or channel name.
+      <br/>
    ✅ Open videos in YouTube by clicking on them.
